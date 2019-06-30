@@ -3,7 +3,6 @@ function reverseOdd(str) {
 	var arr=[];
 	
 	result=""
-	arr=str.split(" ");
 	for(var i=0;i<arr.length;i++){
 		if(arr[i].length % 2!=0){
 			temp="";
@@ -21,5 +20,6 @@ function reverseOdd(str) {
 	return result.trim();
 	
 }
+//added a comment
 //console.log(reverseOdd("One two three four") )
 //➞ "enO owt eerht four"
